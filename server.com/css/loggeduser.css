@@ -1,0 +1,23 @@
+header ul li a:hover {
+  transition: 0.5p;
+  color: #7cfc00;
+}
+header ul li ul{
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  width: 180px;
+  display: none;
+  z-index: 111;
+}
+header ul:hover ul{
+  display: block;
+  color: #c0c0c0;
+}
+
+header ul li:hover ul{
+  display: block;
+}
+header ul li ul li{
+  width: 100%;
+}
