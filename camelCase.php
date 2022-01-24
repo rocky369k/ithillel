@@ -6,7 +6,7 @@ function camelCase($str) {
     $str = str_replace($i, ' ', $str);
     $str = str_replace(' ', '', ucwords(strtolower($str)));
     $str = strtolower(substr($str,0,1)).substr($str,1);
-    return $str;
+   
 
     static $cache = false;
 
